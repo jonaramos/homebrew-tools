@@ -9,18 +9,18 @@ class PostingImport < Formula
   on_macos do
     on_intel do
       url "https://github.com/jonaramos/posting-import/releases/download/v#{version}/posting-import-x86_64-apple-darwin.tar.gz"
-      sha256 "REPLACE_WITH_X86_SHA256"
+      sha256 "REPLACE_WITH_X86_SHA256" # x86_mac_sha
     end
     on_arm do
       url "https://github.com/jonaramos/posting-import/releases/download/v#{version}/posting-import-aarch64-apple-darwin.tar.gz"
-      sha256 "REPLACE_WITH_ARM_SHA256"
+      sha256 "REPLACE_WITH_ARM_SHA256" # arc_mac_sha
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jonaramos/posting-import/releases/download/v#{version}/posting-import-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "REPLACE_WITH_LINUX_SHA256"
+      sha256 "REPLACE_WITH_LINUX_SHA256" # linux_sha
     end
   end
 
